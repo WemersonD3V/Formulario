@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&family=Ubuntu:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 944px;
+    background-color: #31BAC8;
+}
+.title_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    height: 764px;
+    width: 637px;
+    border-radius: 10px;
+    background-color: #fff;
+    background: url(imagens/Sem\ Título-1.png);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center; 
+    gap: 50px;
+   
+    padding: 20px 60px 60px 60px;
+    
+
+
+    
+}
+
+.title_logo .logo{
+    background-color: #fff;
+    width: 166px;
+    height: 166px;
+    border-radius: 100%;
+    margin-bottom:15px ;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.316);
+   
+}
+.logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.logo img{
+    width: 115px;
+    height:115px;
+    
+    
+}
+.title_logo h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #03533C;
+   
+
+}
+.title_logo p {
+    margin-top: 8px;
+    color: #31BAC8;
+    font-weight: bold;
+    font-size: 20px;
+}
+form{
+   width: 100%; 
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   
+   
+   
+
+   
+}
+
+.fullname{
+  width: 627px;  
+  display: flex;
+  
+  
+
+}
+form label {
+    margin-bottom: 13px;
+    color:#31BAC8;
+    font-weight: bold;
+}
+form input::placeholder{
+    color: #c0c0c0;
+}
+form input[type='text']{
+    padding-left: 15px;
+    width: 244px;
+    height: 38px;
+    border-radius: 5px;
+    border:1px solid #cacaca;
+   
+}
+
+form input[type='email']{
+    padding-left: 15px;
+    width: 566px;
+    height: 38px;
+    border-radius: 5px;
+    border:1px solid #cacaca;
+}
+form input[type="submit"]{
+    margin-top: 25px;
+    width: 190px;
+    height: 52px;
+    align-self: center;
+    padding: 0px 20px;
+    font-size: 28px;
+    background-color: #f295af;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing:3px;
+    border: none;
+    cursor: pointer;
+}
+
+#iMessage{
+    resize: none;
+    width: 586px;
+    height: 129px;
+    border-radius: 5px;
+    border:1px solid #cacaca;
+    padding: 18px 12px;
+
+}
+
+.name{
+    margin-right: 17px;
+    
+}
+.name, .lastname, .mail,.areaText{
+    flex: 1;
+    display:flex ;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
